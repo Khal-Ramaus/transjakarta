@@ -1,0 +1,91 @@
+version: '3.8'
+
+x-airflow-common: &airflow-common
+  image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.8.2} 
+  environment:
+    # Airflow configure
+    &airflow-env
+    AIRFLOW_UID: 50000
+    AIRFLOW_GID: 0
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__CORE__FERNET_KEY: 'your_super_secret_fernet_key'
+    AIRFLOW__WEBSERVER__SECRET_KEY: 'your_super_secret_webserver_key'
+
+    PYTHONPATH: "/opt/airflow/"
+
+    # Connection to postgresql
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql://airflow:airflow@postgres/airflow
+    AIRFLOW__DATABASE__SQL_ALCHEMY_POOL_SIZE: 5
+    AIRFLOW__DATABASE__SQL_ALCHEMY_MAX_OVERFLOW: 10
+
+
+    POSTGRES_HOST: postgres
+    POSTGRES_USER: airflow
+    POSTGRES_PASSWORD: airflow
+    POSTGRES_DB: transport_db
+  
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./etl_scripts:/opt/airflow/etl_scripts
+    - ./config:/opt/airflow/config
+    - ./data_source:/opt/airflow/data_source
+    - ./output:/opt/airflow/output
+
+  depends_on:
+    postgres:
+      condition: service_healthy
+  
+services:
+
+# 1. PostgreSQL Service (Database)
+  postgres:
+    image: postgres:15-alpine
+    container_name: postgres
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow 
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./initdb:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+
+  # 2. Airflow Initializer (Inisialisasi Database Airflow)
+  airflow-init:
+    <<: *airflow-common 
+    container_name: airflow-init
+    entrypoint: /bin/bash -c "exec airflow db upgrade && exec airflow users create --username admin --password admin --firstname Airflow --lastname Admin --role Admin --email admin@example.com"
+    user: "50000:0"
+
+  # 3. Airflow Webserver (UI)
+  airflow-webserver:
+    <<: *airflow-common
+    container_name: airflow-webserver
+    command: webserver
+    ports:
+      - "8080:8080"
+    user: "50000:0"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 30s
+      retries: 5
+
+  # 4. Airflow Scheduler
+  airflow-scheduler:
+    <<: *airflow-common
+    container_name: airflow-scheduler
+    command: scheduler
+    user: "50000:0"
+
+
+volumes:
+  postgres_data:
+    driver: local

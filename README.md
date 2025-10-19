@@ -94,31 +94,10 @@ Proyek ini menggunakan container Docker untuk mengisolasi lingkungan, tetapi dep
 
 <hr>
 
-## 3. Struktur Folder 📁
-
-Struktur *repository* diorganisir sebagai berikut:
-
-├── dags/
-│   └── etl_transport_dag.py     # Definisi alur kerja Airflow (DAG) utama.
-├── data_source/
-│   ├── dummy_transaksi_bus.csv  # Data sumber mentah.
-│   └── ...                      # 4 file CSV data sumber lainnya.
-├── output/
-│   ├── report_route.csv         # Hasil laporan dalam format CSV (Setelah ETL sukses).
-│   └── ...                      # Laporan CSV lainnya.
-├── etl_scripts/
-│   ├── transform_load.py        # Logika ETL (Transformasi Pandas dan Load ke DB/CSV).
-│   └── config/
-│       └── postgres_conn.py     # Logika koneksi database PostgreSQL.
-├── docker-compose.yml           # Konfigurasi untuk menjalankan semua layanan via Docker.
-├── Dockerfile                   # Konfigurasi environment Airflow (instalasi Python libs).
-└── README.md                    # Dokumentasi ini.
-
-
 
 <hr>
 
-## 4. Detail Airflow DAG
+## 3. Detail Airflow DAG
 
 Pipeline ETL utama didefinisikan dalam `etl_transport_dag.py`.
 

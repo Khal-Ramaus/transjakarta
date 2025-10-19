@@ -1,0 +1,562 @@
+tanggal,route_code,route_name,gate_in_boo,jumlah_pelanggan,total_amount
+2025-07-01,1,Blok M - Kota,False,1,2000
+2025-07-01,1,Blok M - Kota,True,2,2000
+2025-07-01,10,Tanjung Priok - PGC,False,2,23500
+2025-07-01,2,Pulo Gadung - Monas,False,1,20000
+2025-07-01,2,Pulo Gadung - Monas,True,2,55000
+2025-07-01,3,Kalideres - Monas,False,2,22000
+2025-07-01,3,Kalideres - Monas,True,1,20000
+2025-07-01,4,Pulo Gadung - Galunggung,False,2,35000
+2025-07-01,4,Pulo Gadung - Galunggung,True,4,43500
+2025-07-01,5,Kampung Melayu - Ancol,False,1,20000
+2025-07-01,6,Ragunan - Galunggung,True,1,20000
+2025-07-01,7,Kampung Rambutan - Kampung Melayu,True,1,20000
+2025-07-01,8,Lebak Bulus - Pasar Baru,False,1,2000
+2025-07-01,9,Pinang Ranti - Pluit,False,1,2000
+2025-07-01,9,Pinang Ranti - Pluit,True,1,0
+2025-07-01,UNKNOWN,UNKNOWN,False,10,187500
+2025-07-01,UNKNOWN,UNKNOWN,True,10,154000
+2025-07-02,1,Blok M - Kota,True,2,37000
+2025-07-02,10,Tanjung Priok - PGC,False,1,35000
+2025-07-02,10,Tanjung Priok - PGC,True,1,0
+2025-07-02,11,Pulo Gebang - Kampung Melayu,False,1,3500
+2025-07-02,11,Pulo Gebang - Kampung Melayu,True,1,20000
+2025-07-02,12,Tanjung Priok - Pluit,True,1,0
+2025-07-02,13,Puri Beta - Tegal Mampang,True,1,0
+2025-07-02,2,Pulo Gadung - Monas,False,3,58500
+2025-07-02,2,Pulo Gadung - Monas,True,2,2000
+2025-07-02,4,Pulo Gadung - Galunggung,False,2,37000
+2025-07-02,4,Pulo Gadung - Galunggung,True,3,55000
+2025-07-02,5,Kampung Melayu - Ancol,False,1,35000
+2025-07-02,5,Kampung Melayu - Ancol,True,2,3500
+2025-07-02,6,Ragunan - Galunggung,False,1,35000
+2025-07-02,7,Kampung Rambutan - Kampung Melayu,False,1,2000
+2025-07-02,7,Kampung Rambutan - Kampung Melayu,True,1,0
+2025-07-02,8,Lebak Bulus - Pasar Baru,False,2,38500
+2025-07-02,8,Lebak Bulus - Pasar Baru,True,2,55000
+2025-07-02,9,Pinang Ranti - Pluit,False,1,2000
+2025-07-02,UNKNOWN,UNKNOWN,False,10,161000
+2025-07-02,UNKNOWN,UNKNOWN,True,4,92000
+2025-07-03,1,Blok M - Kota,False,1,20000
+2025-07-03,1,Blok M - Kota,True,2,37000
+2025-07-03,10,Tanjung Priok - PGC,True,1,35000
+2025-07-03,11,Pulo Gebang - Kampung Melayu,False,1,3500
+2025-07-03,12,Tanjung Priok - Pluit,False,1,35000
+2025-07-03,13,Puri Beta - Tegal Mampang,False,1,3500
+2025-07-03,13,Puri Beta - Tegal Mampang,True,2,0
+2025-07-03,14,Jakarta International Stadium - Senen,False,2,22000
+2025-07-03,14,Jakarta International Stadium - Senen,True,1,2000
+2025-07-03,3,Kalideres - Monas,True,2,38500
+2025-07-03,4,Pulo Gadung - Galunggung,False,2,22000
+2025-07-03,4,Pulo Gadung - Galunggung,True,2,23500
+2025-07-03,5,Kampung Melayu - Ancol,False,1,2000
+2025-07-03,5,Kampung Melayu - Ancol,True,1,2000
+2025-07-03,7,Kampung Rambutan - Kampung Melayu,False,1,20000
+2025-07-03,7,Kampung Rambutan - Kampung Melayu,True,1,2000
+2025-07-03,8,Lebak Bulus - Pasar Baru,False,1,3500
+2025-07-03,9,Pinang Ranti - Pluit,False,5,80500
+2025-07-03,UNKNOWN,UNKNOWN,False,6,79000
+2025-07-03,UNKNOWN,UNKNOWN,True,9,45000
+2025-07-04,1,Blok M - Kota,False,1,0
+2025-07-04,1,Blok M - Kota,True,1,0
+2025-07-04,10,Tanjung Priok - PGC,True,1,20000
+2025-07-04,12,Tanjung Priok - Pluit,False,2,38500
+2025-07-04,14,Jakarta International Stadium - Senen,True,1,0
+2025-07-04,2,Pulo Gadung - Monas,False,1,35000
+2025-07-04,2,Pulo Gadung - Monas,True,3,40500
+2025-07-04,3,Kalideres - Monas,False,1,0
+2025-07-04,3,Kalideres - Monas,True,2,38500
+2025-07-04,4,Pulo Gadung - Galunggung,False,2,20000
+2025-07-04,4,Pulo Gadung - Galunggung,True,3,40500
+2025-07-04,5,Kampung Melayu - Ancol,True,1,3500
+2025-07-04,6,Ragunan - Galunggung,False,2,55000
+2025-07-04,7,Kampung Rambutan - Kampung Melayu,False,2,55000
+2025-07-04,7,Kampung Rambutan - Kampung Melayu,True,1,35000
+2025-07-04,9,Pinang Ranti - Pluit,False,2,37000
+2025-07-04,9,Pinang Ranti - Pluit,True,3,25500
+2025-07-04,UNKNOWN,UNKNOWN,False,7,132000
+2025-07-04,UNKNOWN,UNKNOWN,True,6,100000
+2025-07-05,1,Blok M - Kota,False,2,55000
+2025-07-05,1,Blok M - Kota,True,3,57000
+2025-07-05,10,Tanjung Priok - PGC,False,1,0
+2025-07-05,12,Tanjung Priok - Pluit,True,1,0
+2025-07-05,13,Puri Beta - Tegal Mampang,False,2,38500
+2025-07-05,13,Puri Beta - Tegal Mampang,True,3,90000
+2025-07-05,14,Jakarta International Stadium - Senen,True,1,35000
+2025-07-05,2,Pulo Gadung - Monas,False,2,22000
+2025-07-05,2,Pulo Gadung - Monas,True,1,0
+2025-07-05,3,Kalideres - Monas,False,1,0
+2025-07-05,3,Kalideres - Monas,True,1,0
+2025-07-05,4,Pulo Gadung - Galunggung,False,1,35000
+2025-07-05,4,Pulo Gadung - Galunggung,True,1,3500
+2025-07-05,5,Kampung Melayu - Ancol,False,2,22000
+2025-07-05,5,Kampung Melayu - Ancol,True,1,2000
+2025-07-05,6,Ragunan - Galunggung,True,1,35000
+2025-07-05,7,Kampung Rambutan - Kampung Melayu,False,1,3500
+2025-07-05,9,Pinang Ranti - Pluit,False,2,5500
+2025-07-05,9,Pinang Ranti - Pluit,True,1,20000
+2025-07-05,UNKNOWN,UNKNOWN,False,8,134000
+2025-07-05,UNKNOWN,UNKNOWN,True,5,79000
+2025-07-06,12,Tanjung Priok - Pluit,False,2,3500
+2025-07-06,12,Tanjung Priok - Pluit,True,1,2000
+2025-07-06,13,Puri Beta - Tegal Mampang,False,2,35000
+2025-07-06,13,Puri Beta - Tegal Mampang,True,4,42000
+2025-07-06,14,Jakarta International Stadium - Senen,True,1,2000
+2025-07-06,2,Pulo Gadung - Monas,False,1,20000
+2025-07-06,2,Pulo Gadung - Monas,True,1,0
+2025-07-06,3,Kalideres - Monas,True,1,0
+2025-07-06,4,Pulo Gadung - Galunggung,True,2,5500
+2025-07-06,5,Kampung Melayu - Ancol,False,1,35000
+2025-07-06,5,Kampung Melayu - Ancol,True,2,55000
+2025-07-06,7,Kampung Rambutan - Kampung Melayu,False,1,20000
+2025-07-06,7,Kampung Rambutan - Kampung Melayu,True,1,35000
+2025-07-06,9,Pinang Ranti - Pluit,False,1,35000
+2025-07-06,9,Pinang Ranti - Pluit,True,1,3500
+2025-07-06,UNKNOWN,UNKNOWN,False,9,169000
+2025-07-06,UNKNOWN,UNKNOWN,True,9,86000
+2025-07-07,1,Blok M - Kota,True,1,2000
+2025-07-07,10,Tanjung Priok - PGC,False,2,37000
+2025-07-07,12,Tanjung Priok - Pluit,False,1,35000
+2025-07-07,12,Tanjung Priok - Pluit,True,2,7000
+2025-07-07,13,Puri Beta - Tegal Mampang,True,1,20000
+2025-07-07,14,Jakarta International Stadium - Senen,False,1,35000
+2025-07-07,2,Pulo Gadung - Monas,False,2,4000
+2025-07-07,3,Kalideres - Monas,True,1,35000
+2025-07-07,4,Pulo Gadung - Galunggung,False,1,0
+2025-07-07,4,Pulo Gadung - Galunggung,True,2,38500
+2025-07-07,5,Kampung Melayu - Ancol,False,1,20000
+2025-07-07,7,Kampung Rambutan - Kampung Melayu,False,1,20000
+2025-07-07,8,Lebak Bulus - Pasar Baru,False,1,0
+2025-07-07,9,Pinang Ranti - Pluit,True,1,20000
+2025-07-07,UNKNOWN,UNKNOWN,False,9,132500
+2025-07-07,UNKNOWN,UNKNOWN,True,7,86000
+2025-07-08,1,Blok M - Kota,False,1,20000
+2025-07-08,10,Tanjung Priok - PGC,False,1,20000
+2025-07-08,10,Tanjung Priok - PGC,True,1,3500
+2025-07-08,11,Pulo Gebang - Kampung Melayu,False,2,35000
+2025-07-08,12,Tanjung Priok - Pluit,False,1,20000
+2025-07-08,12,Tanjung Priok - Pluit,True,2,40000
+2025-07-08,13,Puri Beta - Tegal Mampang,False,1,35000
+2025-07-08,13,Puri Beta - Tegal Mampang,True,1,20000
+2025-07-08,3,Kalideres - Monas,False,2,3500
+2025-07-08,3,Kalideres - Monas,True,1,20000
+2025-07-08,4,Pulo Gadung - Galunggung,True,1,35000
+2025-07-08,5,Kampung Melayu - Ancol,False,2,55000
+2025-07-08,8,Lebak Bulus - Pasar Baru,False,1,2000
+2025-07-08,8,Lebak Bulus - Pasar Baru,True,2,5500
+2025-07-08,9,Pinang Ranti - Pluit,False,2,23500
+2025-07-08,UNKNOWN,UNKNOWN,False,8,67500
+2025-07-08,UNKNOWN,UNKNOWN,True,6,79000
+2025-07-09,1,Blok M - Kota,True,4,73500
+2025-07-09,10,Tanjung Priok - PGC,False,2,55000
+2025-07-09,10,Tanjung Priok - PGC,True,2,23500
+2025-07-09,11,Pulo Gebang - Kampung Melayu,True,1,35000
+2025-07-09,13,Puri Beta - Tegal Mampang,True,2,3500
+2025-07-09,14,Jakarta International Stadium - Senen,False,2,2000
+2025-07-09,2,Pulo Gadung - Monas,True,1,0
+2025-07-09,3,Kalideres - Monas,False,2,20000
+2025-07-09,3,Kalideres - Monas,True,1,3500
+2025-07-09,4,Pulo Gadung - Galunggung,False,3,58500
+2025-07-09,4,Pulo Gadung - Galunggung,True,1,2000
+2025-07-09,5,Kampung Melayu - Ancol,False,1,2000
+2025-07-09,5,Kampung Melayu - Ancol,True,2,2000
+2025-07-09,6,Ragunan - Galunggung,False,2,7000
+2025-07-09,7,Kampung Rambutan - Kampung Melayu,True,1,35000
+2025-07-09,8,Lebak Bulus - Pasar Baru,False,1,20000
+2025-07-09,8,Lebak Bulus - Pasar Baru,True,1,20000
+2025-07-09,9,Pinang Ranti - Pluit,False,1,20000
+2025-07-09,UNKNOWN,UNKNOWN,False,14,132000
+2025-07-09,UNKNOWN,UNKNOWN,True,9,84500
+2025-07-10,1,Blok M - Kota,False,2,2000
+2025-07-10,1,Blok M - Kota,True,1,35000
+2025-07-10,10,Tanjung Priok - PGC,True,2,3500
+2025-07-10,13,Puri Beta - Tegal Mampang,False,1,2000
+2025-07-10,13,Puri Beta - Tegal Mampang,True,1,2000
+2025-07-10,14,Jakarta International Stadium - Senen,False,1,35000
+2025-07-10,2,Pulo Gadung - Monas,False,1,35000
+2025-07-10,4,Pulo Gadung - Galunggung,False,1,3500
+2025-07-10,4,Pulo Gadung - Galunggung,True,2,37000
+2025-07-10,5,Kampung Melayu - Ancol,False,1,3500
+2025-07-10,5,Kampung Melayu - Ancol,True,1,3500
+2025-07-10,6,Ragunan - Galunggung,True,1,20000
+2025-07-10,7,Kampung Rambutan - Kampung Melayu,False,1,35000
+2025-07-10,7,Kampung Rambutan - Kampung Melayu,True,2,5500
+2025-07-10,8,Lebak Bulus - Pasar Baru,False,2,4000
+2025-07-10,9,Pinang Ranti - Pluit,False,2,2000
+2025-07-10,9,Pinang Ranti - Pluit,True,2,38500
+2025-07-10,UNKNOWN,UNKNOWN,False,6,98500
+2025-07-10,UNKNOWN,UNKNOWN,True,7,101000
+2025-07-11,1,Blok M - Kota,False,1,35000
+2025-07-11,10,Tanjung Priok - PGC,False,1,2000
+2025-07-11,10,Tanjung Priok - PGC,True,1,0
+2025-07-11,12,Tanjung Priok - Pluit,False,1,35000
+2025-07-11,13,Puri Beta - Tegal Mampang,True,1,0
+2025-07-11,14,Jakarta International Stadium - Senen,True,1,20000
+2025-07-11,2,Pulo Gadung - Monas,False,2,5500
+2025-07-11,2,Pulo Gadung - Monas,True,2,5500
+2025-07-11,3,Kalideres - Monas,True,1,0
+2025-07-11,4,Pulo Gadung - Galunggung,False,1,3500
+2025-07-11,4,Pulo Gadung - Galunggung,True,1,2000
+2025-07-11,5,Kampung Melayu - Ancol,True,1,2000
+2025-07-11,7,Kampung Rambutan - Kampung Melayu,True,1,2000
+2025-07-11,8,Lebak Bulus - Pasar Baru,False,1,20000
+2025-07-11,8,Lebak Bulus - Pasar Baru,True,1,2000
+2025-07-11,9,Pinang Ranti - Pluit,False,1,0
+2025-07-11,9,Pinang Ranti - Pluit,True,1,35000
+2025-07-11,UNKNOWN,UNKNOWN,False,11,139000
+2025-07-11,UNKNOWN,UNKNOWN,True,7,66500
+2025-07-12,1,Blok M - Kota,False,1,20000
+2025-07-12,10,Tanjung Priok - PGC,True,1,3500
+2025-07-12,11,Pulo Gebang - Kampung Melayu,True,1,3500
+2025-07-12,13,Puri Beta - Tegal Mampang,False,1,35000
+2025-07-12,13,Puri Beta - Tegal Mampang,True,1,35000
+2025-07-12,14,Jakarta International Stadium - Senen,True,1,20000
+2025-07-12,2,Pulo Gadung - Monas,False,1,20000
+2025-07-12,2,Pulo Gadung - Monas,True,2,70000
+2025-07-12,3,Kalideres - Monas,True,1,3500
+2025-07-12,4,Pulo Gadung - Galunggung,False,2,4000
+2025-07-12,5,Kampung Melayu - Ancol,False,1,35000
+2025-07-12,5,Kampung Melayu - Ancol,True,1,2000
+2025-07-12,6,Ragunan - Galunggung,False,1,35000
+2025-07-12,7,Kampung Rambutan - Kampung Melayu,False,1,0
+2025-07-12,8,Lebak Bulus - Pasar Baru,False,3,40500
+2025-07-12,8,Lebak Bulus - Pasar Baru,True,1,3500
+2025-07-12,9,Pinang Ranti - Pluit,False,3,5500
+2025-07-12,9,Pinang Ranti - Pluit,True,3,25500
+2025-07-12,UNKNOWN,UNKNOWN,False,8,117500
+2025-07-12,UNKNOWN,UNKNOWN,True,6,118500
+2025-07-13,10,Tanjung Priok - PGC,True,4,74000
+2025-07-13,12,Tanjung Priok - Pluit,False,1,0
+2025-07-13,13,Puri Beta - Tegal Mampang,True,1,0
+2025-07-13,14,Jakarta International Stadium - Senen,False,1,35000
+2025-07-13,14,Jakarta International Stadium - Senen,True,3,24000
+2025-07-13,2,Pulo Gadung - Monas,False,1,20000
+2025-07-13,2,Pulo Gadung - Monas,True,1,20000
+2025-07-13,4,Pulo Gadung - Galunggung,False,1,35000
+2025-07-13,4,Pulo Gadung - Galunggung,True,3,9000
+2025-07-13,7,Kampung Rambutan - Kampung Melayu,False,3,42000
+2025-07-13,8,Lebak Bulus - Pasar Baru,False,1,3500
+2025-07-13,UNKNOWN,UNKNOWN,False,7,68000
+2025-07-13,UNKNOWN,UNKNOWN,True,12,190000
+2025-07-14,1,Blok M - Kota,False,1,0
+2025-07-14,13,Puri Beta - Tegal Mampang,False,2,55000
+2025-07-14,14,Jakarta International Stadium - Senen,True,1,20000
+2025-07-14,2,Pulo Gadung - Monas,False,2,37000
+2025-07-14,2,Pulo Gadung - Monas,True,1,2000
+2025-07-14,3,Kalideres - Monas,True,1,20000
+2025-07-14,5,Kampung Melayu - Ancol,False,1,20000
+2025-07-14,7,Kampung Rambutan - Kampung Melayu,False,2,38500
+2025-07-14,7,Kampung Rambutan - Kampung Melayu,True,3,27000
+2025-07-14,9,Pinang Ranti - Pluit,False,2,37000
+2025-07-14,9,Pinang Ranti - Pluit,True,3,42000
+2025-07-14,UNKNOWN,UNKNOWN,False,5,49000
+2025-07-14,UNKNOWN,UNKNOWN,True,9,139000
+2025-07-15,1,Blok M - Kota,False,2,23500
+2025-07-15,1,Blok M - Kota,True,1,35000
+2025-07-15,10,Tanjung Priok - PGC,False,2,3500
+2025-07-15,10,Tanjung Priok - PGC,True,1,3500
+2025-07-15,11,Pulo Gebang - Kampung Melayu,True,1,3500
+2025-07-15,13,Puri Beta - Tegal Mampang,True,1,20000
+2025-07-15,2,Pulo Gadung - Monas,False,2,37000
+2025-07-15,2,Pulo Gadung - Monas,True,1,20000
+2025-07-15,3,Kalideres - Monas,False,1,2000
+2025-07-15,3,Kalideres - Monas,True,1,2000
+2025-07-15,4,Pulo Gadung - Galunggung,True,1,35000
+2025-07-15,5,Kampung Melayu - Ancol,False,1,2000
+2025-07-15,5,Kampung Melayu - Ancol,True,1,20000
+2025-07-15,8,Lebak Bulus - Pasar Baru,True,1,0
+2025-07-15,9,Pinang Ranti - Pluit,False,3,39000
+2025-07-15,UNKNOWN,UNKNOWN,False,6,115500
+2025-07-15,UNKNOWN,UNKNOWN,True,7,49000
+2025-07-16,1,Blok M - Kota,False,1,20000
+2025-07-16,1,Blok M - Kota,True,2,23500
+2025-07-16,11,Pulo Gebang - Kampung Melayu,True,1,35000
+2025-07-16,12,Tanjung Priok - Pluit,False,2,22000
+2025-07-16,12,Tanjung Priok - Pluit,True,1,35000
+2025-07-16,13,Puri Beta - Tegal Mampang,True,3,37000
+2025-07-16,14,Jakarta International Stadium - Senen,True,1,2000
+2025-07-16,2,Pulo Gadung - Monas,False,3,9000
+2025-07-16,2,Pulo Gadung - Monas,True,1,0
+2025-07-16,3,Kalideres - Monas,True,1,20000
+2025-07-16,4,Pulo Gadung - Galunggung,False,1,3500
+2025-07-16,4,Pulo Gadung - Galunggung,True,2,38500
+2025-07-16,5,Kampung Melayu - Ancol,False,1,20000
+2025-07-16,5,Kampung Melayu - Ancol,True,1,3500
+2025-07-16,6,Ragunan - Galunggung,False,1,2000
+2025-07-16,6,Ragunan - Galunggung,True,2,38500
+2025-07-16,7,Kampung Rambutan - Kampung Melayu,False,3,75000
+2025-07-16,8,Lebak Bulus - Pasar Baru,True,1,2000
+2025-07-16,9,Pinang Ranti - Pluit,False,2,23500
+2025-07-16,9,Pinang Ranti - Pluit,True,4,93500
+2025-07-16,UNKNOWN,UNKNOWN,False,2,20000
+2025-07-16,UNKNOWN,UNKNOWN,True,8,149000
+2025-07-17,1,Blok M - Kota,False,2,55000
+2025-07-17,10,Tanjung Priok - PGC,False,2,20000
+2025-07-17,11,Pulo Gebang - Kampung Melayu,False,1,20000
+2025-07-17,12,Tanjung Priok - Pluit,False,1,3500
+2025-07-17,13,Puri Beta - Tegal Mampang,False,2,70000
+2025-07-17,13,Puri Beta - Tegal Mampang,True,2,40000
+2025-07-17,14,Jakarta International Stadium - Senen,True,1,35000
+2025-07-17,2,Pulo Gadung - Monas,False,1,20000
+2025-07-17,2,Pulo Gadung - Monas,True,3,57000
+2025-07-17,3,Kalideres - Monas,False,2,5500
+2025-07-17,4,Pulo Gadung - Galunggung,False,2,55000
+2025-07-17,4,Pulo Gadung - Galunggung,True,1,0
+2025-07-17,5,Kampung Melayu - Ancol,True,2,35000
+2025-07-17,7,Kampung Rambutan - Kampung Melayu,False,1,2000
+2025-07-17,7,Kampung Rambutan - Kampung Melayu,True,1,20000
+2025-07-17,9,Pinang Ranti - Pluit,True,4,25500
+2025-07-17,UNKNOWN,UNKNOWN,False,6,100500
+2025-07-17,UNKNOWN,UNKNOWN,True,8,82500
+2025-07-18,1,Blok M - Kota,False,2,38500
+2025-07-18,1,Blok M - Kota,True,1,0
+2025-07-18,10,Tanjung Priok - PGC,False,1,3500
+2025-07-18,10,Tanjung Priok - PGC,True,4,58500
+2025-07-18,11,Pulo Gebang - Kampung Melayu,True,1,2000
+2025-07-18,2,Pulo Gadung - Monas,True,4,60500
+2025-07-18,4,Pulo Gadung - Galunggung,False,3,22000
+2025-07-18,4,Pulo Gadung - Galunggung,True,2,4000
+2025-07-18,5,Kampung Melayu - Ancol,True,3,90000
+2025-07-18,6,Ragunan - Galunggung,True,1,0
+2025-07-18,7,Kampung Rambutan - Kampung Melayu,False,1,20000
+2025-07-18,8,Lebak Bulus - Pasar Baru,False,1,20000
+2025-07-18,9,Pinang Ranti - Pluit,True,1,20000
+2025-07-18,UNKNOWN,UNKNOWN,False,7,66000
+2025-07-18,UNKNOWN,UNKNOWN,True,5,82000
+2025-07-19,1,Blok M - Kota,True,1,2000
+2025-07-19,10,Tanjung Priok - PGC,False,1,2000
+2025-07-19,12,Tanjung Priok - Pluit,True,1,20000
+2025-07-19,13,Puri Beta - Tegal Mampang,False,1,20000
+2025-07-19,13,Puri Beta - Tegal Mampang,True,2,38500
+2025-07-19,14,Jakarta International Stadium - Senen,False,1,2000
+2025-07-19,2,Pulo Gadung - Monas,False,1,0
+2025-07-19,2,Pulo Gadung - Monas,True,1,20000
+2025-07-19,3,Kalideres - Monas,False,1,20000
+2025-07-19,4,Pulo Gadung - Galunggung,False,2,4000
+2025-07-19,4,Pulo Gadung - Galunggung,True,1,35000
+2025-07-19,7,Kampung Rambutan - Kampung Melayu,False,1,2000
+2025-07-19,8,Lebak Bulus - Pasar Baru,False,1,20000
+2025-07-19,8,Lebak Bulus - Pasar Baru,True,2,22000
+2025-07-19,9,Pinang Ranti - Pluit,False,5,76000
+2025-07-19,9,Pinang Ranti - Pluit,True,4,27500
+2025-07-19,UNKNOWN,UNKNOWN,False,8,94000
+2025-07-19,UNKNOWN,UNKNOWN,True,4,39000
+2025-07-20,1,Blok M - Kota,False,1,35000
+2025-07-20,10,Tanjung Priok - PGC,False,2,5500
+2025-07-20,11,Pulo Gebang - Kampung Melayu,True,1,35000
+2025-07-20,12,Tanjung Priok - Pluit,True,2,55000
+2025-07-20,13,Puri Beta - Tegal Mampang,True,2,40000
+2025-07-20,14,Jakarta International Stadium - Senen,False,1,0
+2025-07-20,2,Pulo Gadung - Monas,False,1,20000
+2025-07-20,2,Pulo Gadung - Monas,True,4,55000
+2025-07-20,3,Kalideres - Monas,False,1,20000
+2025-07-20,3,Kalideres - Monas,True,2,2000
+2025-07-20,4,Pulo Gadung - Galunggung,False,1,0
+2025-07-20,5,Kampung Melayu - Ancol,False,1,20000
+2025-07-20,6,Ragunan - Galunggung,False,1,2000
+2025-07-20,7,Kampung Rambutan - Kampung Melayu,False,1,2000
+2025-07-20,7,Kampung Rambutan - Kampung Melayu,True,1,2000
+2025-07-20,8,Lebak Bulus - Pasar Baru,False,2,5500
+2025-07-20,9,Pinang Ranti - Pluit,False,2,37000
+2025-07-20,9,Pinang Ranti - Pluit,True,1,35000
+2025-07-20,UNKNOWN,UNKNOWN,False,10,141500
+2025-07-20,UNKNOWN,UNKNOWN,True,10,93500
+2025-07-21,1,Blok M - Kota,False,1,3500
+2025-07-21,1,Blok M - Kota,True,1,20000
+2025-07-21,10,Tanjung Priok - PGC,False,1,0
+2025-07-21,12,Tanjung Priok - Pluit,True,2,38500
+2025-07-21,13,Puri Beta - Tegal Mampang,True,1,3500
+2025-07-21,14,Jakarta International Stadium - Senen,True,1,3500
+2025-07-21,2,Pulo Gadung - Monas,False,4,60500
+2025-07-21,2,Pulo Gadung - Monas,True,2,55000
+2025-07-21,3,Kalideres - Monas,False,1,20000
+2025-07-21,5,Kampung Melayu - Ancol,False,1,35000
+2025-07-21,6,Ragunan - Galunggung,False,1,0
+2025-07-21,7,Kampung Rambutan - Kampung Melayu,False,1,0
+2025-07-21,9,Pinang Ranti - Pluit,True,1,20000
+2025-07-21,UNKNOWN,UNKNOWN,False,12,245500
+2025-07-21,UNKNOWN,UNKNOWN,True,8,63000
+2025-07-22,1,Blok M - Kota,False,2,70000
+2025-07-22,1,Blok M - Kota,True,1,0
+2025-07-22,12,Tanjung Priok - Pluit,False,1,35000
+2025-07-22,13,Puri Beta - Tegal Mampang,False,1,2000
+2025-07-22,13,Puri Beta - Tegal Mampang,True,2,38500
+2025-07-22,14,Jakarta International Stadium - Senen,False,1,3500
+2025-07-22,3,Kalideres - Monas,True,1,2000
+2025-07-22,4,Pulo Gadung - Galunggung,False,3,40500
+2025-07-22,5,Kampung Melayu - Ancol,False,2,5500
+2025-07-22,6,Ragunan - Galunggung,True,1,20000
+2025-07-22,7,Kampung Rambutan - Kampung Melayu,False,1,3500
+2025-07-22,8,Lebak Bulus - Pasar Baru,False,4,58500
+2025-07-22,9,Pinang Ranti - Pluit,False,2,37000
+2025-07-22,UNKNOWN,UNKNOWN,False,4,42000
+2025-07-22,UNKNOWN,UNKNOWN,True,7,132500
+2025-07-23,1,Blok M - Kota,False,1,3500
+2025-07-23,1,Blok M - Kota,True,1,3500
+2025-07-23,10,Tanjung Priok - PGC,False,2,22000
+2025-07-23,10,Tanjung Priok - PGC,True,1,3500
+2025-07-23,12,Tanjung Priok - Pluit,False,2,23500
+2025-07-23,13,Puri Beta - Tegal Mampang,False,2,20000
+2025-07-23,13,Puri Beta - Tegal Mampang,True,1,3500
+2025-07-23,14,Jakarta International Stadium - Senen,False,1,35000
+2025-07-23,2,Pulo Gadung - Monas,False,1,20000
+2025-07-23,3,Kalideres - Monas,True,1,20000
+2025-07-23,4,Pulo Gadung - Galunggung,False,2,5500
+2025-07-23,4,Pulo Gadung - Galunggung,True,2,22000
+2025-07-23,5,Kampung Melayu - Ancol,False,1,3500
+2025-07-23,5,Kampung Melayu - Ancol,True,2,4000
+2025-07-23,7,Kampung Rambutan - Kampung Melayu,True,2,38500
+2025-07-23,8,Lebak Bulus - Pasar Baru,False,2,22000
+2025-07-23,9,Pinang Ranti - Pluit,False,2,37000
+2025-07-23,9,Pinang Ranti - Pluit,True,2,2000
+2025-07-23,UNKNOWN,UNKNOWN,False,5,82000
+2025-07-23,UNKNOWN,UNKNOWN,True,7,120500
+2025-07-24,1,Blok M - Kota,True,1,3500
+2025-07-24,11,Pulo Gebang - Kampung Melayu,True,1,20000
+2025-07-24,14,Jakarta International Stadium - Senen,False,1,3500
+2025-07-24,2,Pulo Gadung - Monas,False,2,5500
+2025-07-24,2,Pulo Gadung - Monas,True,2,4000
+2025-07-24,3,Kalideres - Monas,False,1,3500
+2025-07-24,4,Pulo Gadung - Galunggung,False,2,23500
+2025-07-24,4,Pulo Gadung - Galunggung,True,2,5500
+2025-07-24,5,Kampung Melayu - Ancol,False,1,0
+2025-07-24,5,Kampung Melayu - Ancol,True,3,38500
+2025-07-24,6,Ragunan - Galunggung,False,1,2000
+2025-07-24,8,Lebak Bulus - Pasar Baru,True,1,3500
+2025-07-24,9,Pinang Ranti - Pluit,False,3,9000
+2025-07-24,9,Pinang Ranti - Pluit,True,1,0
+2025-07-24,UNKNOWN,UNKNOWN,False,6,66000
+2025-07-24,UNKNOWN,UNKNOWN,True,14,201000
+2025-07-25,1,Blok M - Kota,False,1,3500
+2025-07-25,1,Blok M - Kota,True,2,40000
+2025-07-25,10,Tanjung Priok - PGC,False,1,2000
+2025-07-25,10,Tanjung Priok - PGC,True,2,55000
+2025-07-25,12,Tanjung Priok - Pluit,False,1,2000
+2025-07-25,13,Puri Beta - Tegal Mampang,False,2,2000
+2025-07-25,13,Puri Beta - Tegal Mampang,True,1,3500
+2025-07-25,14,Jakarta International Stadium - Senen,True,2,3500
+2025-07-25,3,Kalideres - Monas,True,1,2000
+2025-07-25,4,Pulo Gadung - Galunggung,False,1,20000
+2025-07-25,4,Pulo Gadung - Galunggung,True,1,20000
+2025-07-25,5,Kampung Melayu - Ancol,False,1,2000
+2025-07-25,5,Kampung Melayu - Ancol,True,3,57000
+2025-07-25,8,Lebak Bulus - Pasar Baru,False,1,3500
+2025-07-25,9,Pinang Ranti - Pluit,False,1,3500
+2025-07-25,9,Pinang Ranti - Pluit,True,2,23500
+2025-07-25,UNKNOWN,UNKNOWN,False,12,135500
+2025-07-25,UNKNOWN,UNKNOWN,True,8,69500
+2025-07-26,1,Blok M - Kota,False,2,2000
+2025-07-26,1,Blok M - Kota,True,3,27000
+2025-07-26,10,Tanjung Priok - PGC,True,2,37000
+2025-07-26,11,Pulo Gebang - Kampung Melayu,False,2,4000
+2025-07-26,13,Puri Beta - Tegal Mampang,False,1,20000
+2025-07-26,13,Puri Beta - Tegal Mampang,True,2,5500
+2025-07-26,14,Jakarta International Stadium - Senen,False,2,23500
+2025-07-26,14,Jakarta International Stadium - Senen,True,1,0
+2025-07-26,2,Pulo Gadung - Monas,False,6,64500
+2025-07-26,2,Pulo Gadung - Monas,True,1,2000
+2025-07-26,3,Kalideres - Monas,True,2,22000
+2025-07-26,4,Pulo Gadung - Galunggung,True,2,70000
+2025-07-26,5,Kampung Melayu - Ancol,False,1,3500
+2025-07-26,5,Kampung Melayu - Ancol,True,1,20000
+2025-07-26,6,Ragunan - Galunggung,False,2,7000
+2025-07-26,7,Kampung Rambutan - Kampung Melayu,False,1,3500
+2025-07-26,7,Kampung Rambutan - Kampung Melayu,True,1,2000
+2025-07-26,8,Lebak Bulus - Pasar Baru,False,2,55000
+2025-07-26,UNKNOWN,UNKNOWN,False,9,192000
+2025-07-26,UNKNOWN,UNKNOWN,True,8,200500
+2025-07-27,1,Blok M - Kota,False,1,0
+2025-07-27,1,Blok M - Kota,True,1,20000
+2025-07-27,10,Tanjung Priok - PGC,False,1,35000
+2025-07-27,10,Tanjung Priok - PGC,True,4,62000
+2025-07-27,11,Pulo Gebang - Kampung Melayu,False,2,2000
+2025-07-27,12,Tanjung Priok - Pluit,False,1,3500
+2025-07-27,13,Puri Beta - Tegal Mampang,False,1,20000
+2025-07-27,14,Jakarta International Stadium - Senen,False,2,55000
+2025-07-27,2,Pulo Gadung - Monas,True,3,40500
+2025-07-27,3,Kalideres - Monas,False,1,3500
+2025-07-27,3,Kalideres - Monas,True,1,2000
+2025-07-27,4,Pulo Gadung - Galunggung,False,1,35000
+2025-07-27,4,Pulo Gadung - Galunggung,True,1,20000
+2025-07-27,5,Kampung Melayu - Ancol,False,1,2000
+2025-07-27,5,Kampung Melayu - Ancol,True,1,20000
+2025-07-27,8,Lebak Bulus - Pasar Baru,False,1,20000
+2025-07-27,8,Lebak Bulus - Pasar Baru,True,2,22000
+2025-07-27,UNKNOWN,UNKNOWN,False,7,51500
+2025-07-27,UNKNOWN,UNKNOWN,True,3,42000
+2025-07-28,1,Blok M - Kota,True,4,73500
+2025-07-28,10,Tanjung Priok - PGC,True,1,20000
+2025-07-28,11,Pulo Gebang - Kampung Melayu,False,1,35000
+2025-07-28,12,Tanjung Priok - Pluit,False,1,3500
+2025-07-28,12,Tanjung Priok - Pluit,True,1,3500
+2025-07-28,13,Puri Beta - Tegal Mampang,False,3,42000
+2025-07-28,13,Puri Beta - Tegal Mampang,True,2,37000
+2025-07-28,2,Pulo Gadung - Monas,False,3,73500
+2025-07-28,3,Kalideres - Monas,False,3,42000
+2025-07-28,3,Kalideres - Monas,True,2,38500
+2025-07-28,4,Pulo Gadung - Galunggung,False,1,20000
+2025-07-28,4,Pulo Gadung - Galunggung,True,1,20000
+2025-07-28,6,Ragunan - Galunggung,False,2,35000
+2025-07-28,7,Kampung Rambutan - Kampung Melayu,False,4,42000
+2025-07-28,7,Kampung Rambutan - Kampung Melayu,True,1,3500
+2025-07-28,8,Lebak Bulus - Pasar Baru,True,1,20000
+2025-07-28,9,Pinang Ranti - Pluit,False,2,23500
+2025-07-28,9,Pinang Ranti - Pluit,True,2,22000
+2025-07-28,UNKNOWN,UNKNOWN,False,5,113500
+2025-07-28,UNKNOWN,UNKNOWN,True,10,194000
+2025-07-29,1,Blok M - Kota,False,1,0
+2025-07-29,1,Blok M - Kota,True,1,3500
+2025-07-29,10,Tanjung Priok - PGC,True,1,35000
+2025-07-29,12,Tanjung Priok - Pluit,False,1,2000
+2025-07-29,12,Tanjung Priok - Pluit,True,1,20000
+2025-07-29,13,Puri Beta - Tegal Mampang,False,1,3500
+2025-07-29,13,Puri Beta - Tegal Mampang,True,5,59000
+2025-07-29,2,Pulo Gadung - Monas,False,2,22000
+2025-07-29,2,Pulo Gadung - Monas,True,1,2000
+2025-07-29,3,Kalideres - Monas,False,1,35000
+2025-07-29,4,Pulo Gadung - Galunggung,False,1,35000
+2025-07-29,4,Pulo Gadung - Galunggung,True,1,20000
+2025-07-29,5,Kampung Melayu - Ancol,True,2,70000
+2025-07-29,6,Ragunan - Galunggung,True,2,7000
+2025-07-29,7,Kampung Rambutan - Kampung Melayu,True,1,0
+2025-07-29,8,Lebak Bulus - Pasar Baru,False,1,20000
+2025-07-29,8,Lebak Bulus - Pasar Baru,True,2,3500
+2025-07-29,9,Pinang Ranti - Pluit,False,1,2000
+2025-07-29,UNKNOWN,UNKNOWN,False,8,154000
+2025-07-29,UNKNOWN,UNKNOWN,True,13,143000
+2025-07-30,1,Blok M - Kota,True,1,3500
+2025-07-30,10,Tanjung Priok - PGC,False,2,70000
+2025-07-30,10,Tanjung Priok - PGC,True,2,35000
+2025-07-30,11,Pulo Gebang - Kampung Melayu,False,1,3500
+2025-07-30,11,Pulo Gebang - Kampung Melayu,True,1,20000
+2025-07-30,12,Tanjung Priok - Pluit,False,2,40000
+2025-07-30,13,Puri Beta - Tegal Mampang,False,3,58500
+2025-07-30,13,Puri Beta - Tegal Mampang,True,1,2000
+2025-07-30,14,Jakarta International Stadium - Senen,True,1,20000
+2025-07-30,2,Pulo Gadung - Monas,True,1,0
+2025-07-30,3,Kalideres - Monas,True,1,20000
+2025-07-30,4,Pulo Gadung - Galunggung,False,3,4000
+2025-07-30,4,Pulo Gadung - Galunggung,True,1,35000
+2025-07-30,5,Kampung Melayu - Ancol,False,2,37000
+2025-07-30,5,Kampung Melayu - Ancol,True,1,35000
+2025-07-30,8,Lebak Bulus - Pasar Baru,False,3,42000
+2025-07-30,9,Pinang Ranti - Pluit,False,4,42500
+2025-07-30,9,Pinang Ranti - Pluit,True,2,7000
+2025-07-30,UNKNOWN,UNKNOWN,False,9,170500
+2025-07-30,UNKNOWN,UNKNOWN,True,10,138000
+2025-07-31,1,Blok M - Kota,False,1,20000
+2025-07-31,1,Blok M - Kota,True,2,2000
+2025-07-31,10,Tanjung Priok - PGC,True,2,20000
+2025-07-31,12,Tanjung Priok - Pluit,True,1,3500
+2025-07-31,13,Puri Beta - Tegal Mampang,False,2,38500
+2025-07-31,13,Puri Beta - Tegal Mampang,True,2,22000
+2025-07-31,2,Pulo Gadung - Monas,False,1,0
+2025-07-31,2,Pulo Gadung - Monas,True,1,20000
+2025-07-31,4,Pulo Gadung - Galunggung,True,2,22000
+2025-07-31,5,Kampung Melayu - Ancol,True,1,35000
+2025-07-31,7,Kampung Rambutan - Kampung Melayu,False,1,35000
+2025-07-31,8,Lebak Bulus - Pasar Baru,False,1,2000
+2025-07-31,8,Lebak Bulus - Pasar Baru,True,2,55000
+2025-07-31,9,Pinang Ranti - Pluit,False,1,3500
+2025-07-31,UNKNOWN,UNKNOWN,False,10,108000
+2025-07-31,UNKNOWN,UNKNOWN,True,8,112500

@@ -1,0 +1,14 @@
+# Isi file .gitignore
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Airflow/Docker
+logs/
+airflow.cfg
+pg_data/
+*.log
+
+New Text Document.txt
+dict
