@@ -51,13 +51,13 @@ Proyek ini mengimplementasikan pipeline **Extract, Transform, Load (ETL)** mengg
 * **PostgreSQL:** 
     Jalankan command berikut:
     ```bash
-    docker exec -it <postgres_container_name> psql -U airflow -d transport_db
+    docker exec -it postgres psql -U airflow -d transport_db
     ```
     Lalu Periksa tabel laporan (`report_route`, `report_card_type`, `report_fare`) di *database* `transport_db`. Silahkan gunakan query berikut: 
     ```bash
-    Select * from report_route
-    Select * from report_card_type
-    Select * from report_fare
+    Select * from report_route;
+    Select * from report_card_type;
+    Select * from report_fare;
     ```
 * **Output CSV:** Laporan CSV juga akan disimpan di folder **`output/`**.
 
@@ -94,6 +94,9 @@ Pipeline ETL utama didefinisikan dalam `etl_transport_dag.py`.
 | :--- | :--- | :--- |
 | **`dag_id`** | `transjakarta_etl_pipeline` | Nama unik DAG. |
 | **`start_date`** | `2025-10-19` | Tanggal mulai eksekusi (dengan `catchup=False`). |
-| **`schedule`** | `0 0 * * *` (Cron) | Jadwal harian pada pukul **00:00** waktu UTC (7 Pagi waktu Asia/Jakarta). |
+| **`schedule`** | `0 7 * * *` (Cron) | Jadwal harian pada pukul **00:00** waktu Asia/Jakarta. |
 | **`task_id`** | `run_full_etl_process` | Tugas tunggal yang menjalankan seluruh proses ETL. |
 | **`python_callable`**| `run_etl_process` | Fungsi Python yang berisi logika **E-T-L** (Extract data CSV, Transformasi Pandas, Load ke PostgreSQL & CSV). |
+
+## 4. Struktur folder
+. ├── dags/ │ └── etl_transport_dag.py # Definisi alur kerja Airflow (DAG) utama, dijadwalkan pukul 07:00. ├── data_source/ │ ├── dummy_transaksi_bus.csv # Data input transaksi Bus. │ ├── dummy_transaksi_halte.csv# Data input transaksi Halte. │ └── ... # File lookup (routes, realisasi_bus, shelter_corridor). ├── output/ │ ├── report_route.csv # Hasil laporan Rute dalam format CSV. │ └── ... # Laporan CSV lainnya (card_type, fare). ├── etl_scripts/ │ ├── transform_load.py # Logika E-T-L: Transformasi Pandas, Load ke PostgreSQL & CSV. │ └── config/ │ └── postgres_conn.py # Konfigurasi koneksi database. ├── docker-compose.yml # Pengaturan dan orkestrasi Docker untuk Airflow dan PostgreSQL. └── README.md # Dokumentasi proyek.

@@ -12,7 +12,7 @@ with DAG(
     dag_id="transjakarta_etl_pipeline",
     start_date=pendulum.datetime(2025, 10, 19, tz="Asia/Jakarta"),
     # Jadwal: Setiap hari pada pukul 7 pagi
-    schedule="0 0 * * *", 
+    schedule="0 7 * * *", 
     catchup=False,
     tags=["etl", "transjakarta", "daily"],
 ) as dag:
