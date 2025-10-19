@@ -8,7 +8,7 @@ Proyek ini mengimplementasikan pipeline **Extract, Transform, Load (ETL)** mengg
 
 
 
-## 1. Cara Menjalankan Pipeline 🚀
+## 1. Cara Menjalankan Pipeline
 
 *Pipeline* ini dirancang untuk dijalankan menggunakan **Docker Compose**, yang mengatur lingkungan Airflow, PostgreSQL, dan inisialisasi volume data.
 
@@ -65,7 +65,7 @@ Proyek ini mengimplementasikan pipeline **Extract, Transform, Load (ETL)** mengg
 
 <hr>
 
-## 2. Dependensi yang Dibutuhkan 📦
+## 2. Dependensi yang Dibutuhkan
 
 Proyek ini menggunakan container Docker untuk mengisolasi lingkungan, tetapi dependensi utamanya adalah:
 
