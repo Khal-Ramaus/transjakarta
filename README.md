@@ -86,8 +86,6 @@ Proyek ini menggunakan container Docker untuk mengisolasi lingkungan, tetapi dep
 <hr>
 
 
-<hr>
-
 ## 3. Detail Airflow DAG
 
 Pipeline ETL utama didefinisikan dalam `etl_transport_dag.py`.
