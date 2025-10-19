@@ -53,8 +53,12 @@ Proyek ini menggunakan container Docker untuk mengisolasi lingkungan, tetapi dep
 ```
 <hr>
 
+## 3. Flow Chart
+![Flow Chart Transjakarta ETL](assets/Flow_chart.png)
 
-## 3. Cara Menjalankan Pipeline
+<hr>
+
+## 4. Cara Menjalankan Pipeline
 
 *Pipeline* ini dirancang untuk dijalankan menggunakan **Docker Compose**, yang mengatur lingkungan Airflow, PostgreSQL, dan inisialisasi volume data.
 
@@ -107,7 +111,8 @@ Proyek ini menggunakan container Docker untuk mengisolasi lingkungan, tetapi dep
     ```
 * **Output CSV:** Laporan CSV juga akan disimpan di folder **`output/`**.
 <hr>
-## 4. Detail Airflow DAG
+
+## 5. Detail Airflow DAG
 
 Pipeline ETL utama didefinisikan dalam `etl_transport_dag.py`.
 
