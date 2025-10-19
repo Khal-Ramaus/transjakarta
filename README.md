@@ -27,19 +27,9 @@ Proyek ini menggunakan container Docker untuk mengisolasi lingkungan, tetapi dep
 
 <hr>
 
-## 2. Detail Airflow DAG
 
-Pipeline ETL utama didefinisikan dalam `etl_transport_dag.py`.
 
-| Properti | Nilai | Deskripsi |
-| :--- | :--- | :--- |
-| **`dag_id`** | `transjakarta_etl_pipeline` | Nama unik DAG. |
-| **`start_date`** | `2025-10-19` | Tanggal mulai eksekusi (dengan `catchup=False`). |
-| **`schedule`** | `0 7 * * *` (Cron) | Jadwal harian pada pukul **00:00** waktu Asia/Jakarta. |
-| **`task_id`** | `run_full_etl_process` | Tugas tunggal yang menjalankan seluruh proses ETL. |
-| **`python_callable`**| `run_etl_process` | Fungsi Python yang berisi logika **E-T-L** (Extract data CSV, Transformasi Pandas, Load ke PostgreSQL & CSV). |
-
-## 4. Struktur folder
+## 2. Struktur folder
 ```
 .
 ├── dags/
@@ -116,4 +106,17 @@ Pipeline ETL utama didefinisikan dalam `etl_transport_dag.py`.
     Select * from report_fare;
     ```
 * **Output CSV:** Laporan CSV juga akan disimpan di folder **`output/`**.
+<hr>
+## 4. Detail Airflow DAG
 
+Pipeline ETL utama didefinisikan dalam `etl_transport_dag.py`.
+
+| Properti | Nilai | Deskripsi |
+| :--- | :--- | :--- |
+| **`dag_id`** | `transjakarta_etl_pipeline` | Nama unik DAG. |
+| **`start_date`** | `2025-10-19` | Tanggal mulai eksekusi (dengan `catchup=False`). |
+| **`schedule`** | `0 7 * * *` (Cron) | Jadwal harian pada pukul **00:00** waktu Asia/Jakarta. |
+| **`task_id`** | `run_full_etl_process` | Tugas tunggal yang menjalankan seluruh proses ETL. |
+| **`python_callable`**| `run_etl_process` | Fungsi Python yang berisi logika **E-T-L** (Extract data CSV, Transformasi Pandas, Load ke PostgreSQL & CSV). |
+
+<hr>
