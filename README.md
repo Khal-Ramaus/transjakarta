@@ -21,7 +21,7 @@ Proyek ini mengimplementasikan pipeline **Extract, Transform, Load (ETL)** mengg
     ```
 
 2.  **Siapkan Data Source:**
-    Pastikan semua *file* CSV yang dibutuhkan (misalnya, `dummy_transaksi_bus.csv`, `dummy_routes.csv`, dll.) berada di dalam folder **`data_source/`**.
+    Pastikan semua *file* CSV yang dibutuhkan berada di dalam folder **`data_source/`**.
 
 3.  **Build Docker container:**
     Jalankan Docker Compose untuk membangun dan memulai semua layanan (Airflow *Scheduler*, *Webserver*, dan PostgreSQL).
@@ -114,9 +114,9 @@ Pipeline ETL utama didefinisikan dalam `etl_transport_dag.py`.
 │   ├── report_fare.csv            # Hasil laporan tarif gabungan (Bus & Halte) dalam CSV.
 │   └── report_card_type.csv       # Hasil laporan Card Type gabungan (Bus & Halte) dalam CSV.
 ├── etl_scripts/
-│   ├── transform_load.py        # Script ETL: Transformasi Pandas, Load ke PostgreSQL & CSV.
+│   ├── transform_load.py          # Script ETL: Transformasi Pandas, Load ke PostgreSQL & CSV.
 │   └── config/
-│       └── postgres_conn.py     # Konfigurasi koneksi database.
-├── docker-compose.yml           # Pengaturan dan orkestrasi Docker untuk Airflow dan PostgreSQL.
-└── README.md                    # Dokumentasi ini.
+│       └── postgres_conn.py       # Konfigurasi koneksi database.
+├── docker-compose.yml             # Pengaturan dan orkestrasi Docker untuk Airflow dan PostgreSQL.
+└── README.md                      # Dokumentasi ini.
 ```
