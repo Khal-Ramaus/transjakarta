@@ -99,4 +99,21 @@ Pipeline ETL utama didefinisikan dalam `etl_transport_dag.py`.
 | **`python_callable`**| `run_etl_process` | Fungsi Python yang berisi logika **E-T-L** (Extract data CSV, Transformasi Pandas, Load ke PostgreSQL & CSV). |
 
 ## 4. Struktur folder
-. ├── dags/ │ └── etl_transport_dag.py # Definisi alur kerja Airflow (DAG) utama, dijadwalkan pukul 07:00. ├── data_source/ │ ├── dummy_transaksi_bus.csv # Data input transaksi Bus. │ ├── dummy_transaksi_halte.csv# Data input transaksi Halte. │ └── ... # File lookup (routes, realisasi_bus, shelter_corridor). ├── output/ │ ├── report_route.csv # Hasil laporan Rute dalam format CSV. │ └── ... # Laporan CSV lainnya (card_type, fare). ├── etl_scripts/ │ ├── transform_load.py # Logika E-T-L: Transformasi Pandas, Load ke PostgreSQL & CSV. │ └── config/ │ └── postgres_conn.py # Konfigurasi koneksi database. ├── docker-compose.yml # Pengaturan dan orkestrasi Docker untuk Airflow dan PostgreSQL. └── README.md # Dokumentasi proyek.
+```
+.
+├── dags/
+│   └── etl_transport_dag.py     # Definisi alur kerja Airflow (DAG) utama.
+├── data_source/
+│   ├── dummy_transaksi_bus.csv  # Data input transaksi Bus.
+│   ├── dummy_transaksi_halte.csv# Data input transaksi Halte.
+│   └── ...                      # File lookup (routes, realisasi_bus, shelter_corridor).
+├── output/
+│   ├── report_route.csv         # Hasil laporan Rute gabungan (Bus & Halte) dalam CSV.
+│   └── ...                      # Laporan CSV lainnya (card_type, fare).
+├── etl_scripts/
+│   ├── transform_load.py        # Logika E-T-L: Transformasi Pandas, Load ke PostgreSQL & CSV.
+│   └── config/
+│       └── postgres_conn.py     # Konfigurasi koneksi database.
+├── docker-compose.yml           # Pengaturan dan orkestrasi Docker untuk Airflow dan PostgreSQL.
+└── README.md                    # Dokumentasi ini.
+```
