@@ -10,9 +10,9 @@ from etl_scripts.transform_load import run_etl_process
 
 with DAG(
     dag_id="transjakarta_etl_pipeline",
-    start_date=pendulum.datetime(2023, 1, 1, tz="Asia/Jakarta"),
+    start_date=pendulum.datetime(2025, 10, 19, tz="Asia/Jakarta"),
     # Jadwal: Setiap hari pada pukul 7 pagi
-    schedule="0 7 * * *", 
+    schedule="0 0 * * *", 
     catchup=False,
     tags=["etl", "transjakarta", "daily"],
 ) as dag:

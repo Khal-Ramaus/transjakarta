@@ -1,4 +1,4 @@
-# Proyek ETL Transjakarta
+# ETL Pipeline Transjakarta
 
 [![Airflow CI/CD](https://img.shields.io/badge/Airflow-2.x-orange.svg?style=flat-square)](https://airflow.apache.org/)
 [![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blue.svg?style=flat-square)](https://www.postgresql.org/)
@@ -7,15 +7,6 @@
 Proyek ini mengimplementasikan pipeline **Extract, Transform, Load (ETL)** menggunakan **Apache Airflow** untuk memproses data transaksi Transjakarta dari berbagai sumber CSV ke dalam *data warehouse* **PostgreSQL**.
 
 
-<hr>
-
-## Daftar Isi
-- [1. Cara Menjalankan Pipeline](#1-cara-menjalankan-pipeline-🚀)
-- [2. Dependensi yang Dibutuhkan](#2-dependensi-yang-dibutuhkan-📦)
-- [3. Struktur Folder](#3-struktur-folder-📁)
-- [4. Detail Airflow DAG](#4-detail-airflow-dag)
-
-<hr>
 
 ## 1. Cara Menjalankan Pipeline 🚀
 
@@ -25,14 +16,14 @@ Proyek ini mengimplementasikan pipeline **Extract, Transform, Load (ETL)** mengg
 
 1.  **Clone Repository:**
     ```bash
-    git clone [https://proptrader.oanda.com/es/](https://proptrader.oanda.com/es/)
-    cd [NAMA FOLDER REPO]
+    git clone https://github.com/Khal-Ramaus/transjakarta.git
+    cd transjakarta
     ```
 
-2.  **Siapkan Data Sumber:**
+2.  **Siapkan Data Source:**
     Pastikan semua *file* CSV yang dibutuhkan (misalnya, `dummy_transaksi_bus.csv`, `dummy_routes.csv`, dll.) berada di dalam folder **`data_source/`**.
 
-3.  **Bangun dan Jalankan Kontainer Docker:**
+3.  **Build Docker container:**
     Jalankan Docker Compose untuk membangun dan memulai semua layanan (Airflow *Scheduler*, *Webserver*, dan PostgreSQL).
 
     ```bash
@@ -41,14 +32,14 @@ Proyek ini mengimplementasikan pipeline **Extract, Transform, Load (ETL)** mengg
 
 ### B. Eksekusi ETL
 
-1.  **Akses Airflow UI:**
-    Buka *browser* Anda dan navigasikan ke `http://localhost:8080`. (Gunakan *default credentials* `airflow:airflow` jika belum diubah).
-
-2.  **Membuat user:**
+1.  **Membuat user:**
     Jalankan command berikut:
     ```bash
     docker exec -it airflow-webserver airflow users create --username admin --password admin --firstname Airflow --lastname Admin --role Admin --email admin@example.com
     ```
+
+2.  **Akses Airflow UI:**
+    Buka *browser* Anda dan navigasikan ke `http://localhost:8080`. (Gunakan *credential* user: admin dan password: admin.
 
 3.  **Trigger DAG:**
     * Cari DAG dengan nama **`transjakarta_etl_pipeline`**.
@@ -78,7 +69,7 @@ Proyek ini mengimplementasikan pipeline **Extract, Transform, Load (ETL)** mengg
 
 Proyek ini menggunakan container Docker untuk mengisolasi lingkungan, tetapi dependensi utamanya adalah:
 
-### A. Sistem & Alat
+### A. System and tools
 * **Docker** dan **Docker Compose**
 * **Git**
 
@@ -105,6 +96,6 @@ Pipeline ETL utama didefinisikan dalam `etl_transport_dag.py`.
 | :--- | :--- | :--- |
 | **`dag_id`** | `transjakarta_etl_pipeline` | Nama unik DAG. |
 | **`start_date`** | `2025-10-19` | Tanggal mulai eksekusi (dengan `catchup=False`). |
-| **`schedule`** | `0 7 * * *` (Cron) | Jadwal harian pada pukul **07:00 pagi** waktu Asia/Jakarta. |
+| **`schedule`** | `0 0 * * *` (Cron) | Jadwal harian pada pukul **00:00** waktu UTC (7 Pagi waktu Asia/Jakarta). |
 | **`task_id`** | `run_full_etl_process` | Tugas tunggal yang menjalankan seluruh proses ETL. |
 | **`python_callable`**| `run_etl_process` | Fungsi Python yang berisi logika **E-T-L** (Extract data CSV, Transformasi Pandas, Load ke PostgreSQL & CSV). |
